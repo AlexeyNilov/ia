@@ -1,3 +1,4 @@
 # Topics/Ideas to research and discuss
 
-* UX
+* UX and IA
+* IA audit: Enforce IA principles in code repos

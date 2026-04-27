@@ -22,22 +22,3 @@ This project is a working space for researching information architecture, keepin
 3. Build original syntheses in `maps/`.
 4. Save strong reusable questions in `prompts/`.
 5. Keep important IA discussions in `discussions/`.
-
-## Good First Notes
-
-- `notes/concepts/taxonomy.md`
-- `notes/concepts/navigation-systems.md`
-- `notes/concepts/findability.md`
-- `notes/methods/card-sorting.md`
-- `notes/methods/tree-testing.md`
-- `notes/cases/example-analysis.md`
-
-## Working With Codex
-
-Use this project to ask for:
-
-- comparisons between IA concepts
-- critique of note structure or taxonomy
-- help turning rough notes into clearer synthesis
-- challenge sessions on assumptions or frameworks
-- help creating outlines, glossaries, and case-study analyses

@@ -10,7 +10,7 @@ What holds up:
 - Boilerplate and glue code become cheaper and more replaceable.
 - Precise specs, tests, schemas, and contracts become more leveraged.
 - DDD gets more practical where it already had a real fit: complex domains, messy boundaries, lots of language drift.
-- TDD changes shape: less “test first as discipline,” more “tests/specs as executable constraint system for agents.”
+- TDD changes shape: less “test first as discipline” more “tests/specs as executable constraint system for agents”
 
 Why it might be wrong:
 - Many teams do not have the discipline to write good specs, and LLMs can mask that by generating convincing noise.

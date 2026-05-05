@@ -10,6 +10,7 @@ This project is a working space for researching information architecture, keepin
 - `notes/cases/`: case studies of products, apps, sites, or systems
 - `notes/glossary/`: definitions and terminology
 - `maps/`: higher-level syntheses, frameworks, and concept maps
+- `app_ideas/`: rough product and tool ideas worth preserving for later exploration
 - `prompts/`: reusable prompts for discussing ideas with Codex
 - `templates/`: note templates
 - `discussions/`: useful conversation logs and decisions
@@ -20,5 +21,6 @@ This project is a working space for researching information architecture, keepin
 1. Capture raw ideas in `inbox/`.
 2. Refine them into durable notes in `notes/`.
 3. Build original syntheses in `maps/`.
-4. Save strong reusable questions in `prompts/`.
-5. Keep important IA discussions in `discussions/`.
+4. Save product or tool ideas in `app_ideas/`.
+5. Save strong reusable questions in `prompts/`.
+6. Keep important IA discussions in `discussions/`.

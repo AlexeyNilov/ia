@@ -6,3 +6,5 @@
 * The most misunderstood IA concepts
 * techno thriller book about IA, crime prevention in smart cities
 * IA and snow flake method and use it to sketch the book
+* Modeling IA systems
+* Exploration vs Exploitation in IA

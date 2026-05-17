@@ -1,0 +1,4 @@
+interface:
+  display_name: "Extract Key Information"
+  short_description: "Extract claims, evidence, and reasoning"
+  default_prompt: "Use $extract-key-information to extract key information and train of thought from this source."

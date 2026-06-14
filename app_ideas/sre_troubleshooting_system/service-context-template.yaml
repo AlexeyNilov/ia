@@ -1,0 +1,81 @@
+# Service context is the durable operational identity for troubleshooting.
+# It is intentionally small. Prefer generated or frequently refreshed values
+# over hand-maintained detail where possible.
+
+canonical_name: ""
+aliases:
+  logs: []
+  metrics: []
+  kubernetes: []
+  deployment_system: []
+  repo: []
+
+environment: ""
+cluster: ""
+namespace: ""
+
+ownership:
+  team: ""
+  escalation: ""
+  slack_channel: ""
+  docs: ""
+
+runtime:
+  kind: "" # deployment, statefulset, daemonset, job, cronjob
+  workload_name: ""
+  selector: ""
+  containers: []
+  service_account: ""
+
+source:
+  repo: ""
+  default_branch: ""
+  deploy_pipeline: ""
+
+criticality:
+  tier: ""
+  user_facing: false
+  slo: ""
+
+dependencies:
+  upstream: []
+  downstream: []
+  databases: []
+  queues: []
+  external_apis: []
+  shared_infrastructure: []
+
+signals:
+  logs:
+    - source: ""
+      index: ""
+      labels: {}
+  metrics:
+    request_rate: ""
+    error_rate: ""
+    latency: ""
+    cpu: ""
+    memory: ""
+    restarts: ""
+  alerts: []
+  dashboards: []
+  traces:
+    available: false
+    service_name: ""
+
+safe_actions:
+  read_only_allowed:
+    - inspect deployments
+    - inspect pods
+    - inspect events
+    - query logs
+    - query metrics
+  approval_required:
+    - restart workload
+    - rollback deploy
+    - scale workload
+    - change config
+  forbidden:
+    - delete persistent data
+    - run destructive database commands
+
